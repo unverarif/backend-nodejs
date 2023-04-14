@@ -47,5 +47,5 @@ app.get('/', (re, res) => {
 })
 
 // Sunucu çalıştır
-const port = 3001;
+const port = 3000;
 app.listen(port, () => console.log(`Sunucu http://localhost:${port} adresinde çalışıyor!`));
